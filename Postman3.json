@@ -1,0 +1,76 @@
+{
+    "size": {
+        "width": 2000,
+        "height": 1349
+    },
+    "selected": false,
+    "name": "richmenu-3",
+    "chatBarText": "選單",
+    "areas": [
+        {
+            "bounds": {
+                "x": 0,
+                "y": 0,
+                "width": 666,
+                "height": 223
+            },
+            "action": {
+                "type": "richmenuswitch",
+                "richMenuAliasId": "richmenu-alias-1",
+                "data": "richmenu-changed-to-1"
+            }
+        },
+        {
+            "bounds": {
+                "x": 666,
+                "y": 0,
+                "width": 666,
+                "height": 223
+            },
+            "action": {
+                "type": "richmenuswitch",
+                "richMenuAliasId": "richmenu-alias-2",
+                "data": "richmenu-changed-to-2"
+            }
+        },
+        {
+            "bounds": {
+                "x": 0,
+                "y": 223,
+                "width": 666,
+                "height": 1126
+            },
+            "action": {
+                "type": "postback",
+                "text": "功能重置",
+                "data": "action=Reset"
+            }
+        },
+        {
+            "bounds": {
+                "x": 666,
+                "y": 223,
+                "width": 666,
+                "height": 1126
+            },
+            "action": {
+                "type": "uri",
+                "label": "網址",
+                "uri": "https://line.me/R/nv/camera/"
+            }
+        },
+        {
+            "bounds": {
+                "x": 1332,
+                "y": 223,
+                "width": 668,
+                "height": 1126
+            },
+            "action": {
+                "type": "uri",
+                "label": "網址",
+                "uri": "https://line.me/R/nv/cameraRoll/single"
+            }
+        }
+    ]
+}
