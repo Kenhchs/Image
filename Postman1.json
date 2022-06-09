@@ -1,0 +1,63 @@
+{
+    "size": {
+        "width": 2000,
+        "height": 1349
+    },
+    "selected": true,
+    "name": "richmenu-1",
+    "chatBarText": "選單",
+    "areas": [
+        {
+            "bounds": {
+                "x": 666,
+                "y": 0,
+                "width": 666,
+                "height": 223
+            },
+            "action": {
+                "type": "richmenuswitch",
+                "richMenuAliasId": "richmenu-alias-2",
+                "data": "richmenu-changed-to-2"
+            }
+        },
+        {
+            "bounds": {
+                "x": 1332,
+                "y": 0,
+                "width": 668,
+                "height": 223
+            },
+            "action": {
+                "type": "richmenuswitch",
+                "richMenuAliasId": "richmenu-alias-3",
+                "data": "richmenu-changed-to-3"
+            }
+        },
+        {
+            "bounds": {
+                "x": 0,
+                "y": 223,
+                "width": 1000,
+                "height": 1126
+            },
+            "action": {
+                "type": "postback",
+                "text": "使用說明",
+                "data": "action=Directions"
+            }
+        },
+        {
+            "bounds": {
+                "x": 1000,
+                "y": 223,
+                "width": 1000,
+                "height": 1126
+            },
+            "action": {
+                "type": "postback",
+                "text": "股票預測",
+                "data": "action=Stock_Prediction"
+            }
+        }
+    ]
+}
